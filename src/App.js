@@ -96,54 +96,59 @@ class App extends React.Component {
             <Grid item xs={3}>
               { this.state.carousel == 0 && (
                 <div className="carouselItem">
-                  <p> Traffic Simulator </p>
+                  <h3> Traffic Simulator </h3>
                     <ul>
                       <li>edit roads and intersections</li>
                       <li>visualize drivers, buses, pedestrians, and cyclists moving around</li>
                       <li>see how changes affect people's travel time and safety</li>
                     </ul>
+                  <p> Learn more <a href="https://a-b-street.github.io/docs/software/abstreet.html">here</a>.</p>
                 </div>
               )}
 
               { this.state.carousel == 1 && (
                 <div className="carouselItem">
-                  <p> Low-traffic neighbourhoods </p>
+                  <h3> Low-traffic neighbourhoods </h3>
                     <ul>
                       <li>understand how drivers may find shortcuts through neighbourhoods</li>
                       <li>experiment with placing modal filters to create more liveable residential streets</li>
                     </ul>
+                  <p> Learn more <a href="https://a-b-street.github.io/docs/software/ltn/index.html">here</a>.</p>
                 </div>
               )}
 
               { this.state.carousel == 2 && (
                 <div className="carouselItem">
-                  <p> 15-min neighbourhoods </p>
+                  <h3> 15-min neighbourhoods </h3>
                     <ul>
                       <li>see what shops, libraries, health facilities, etc are reachable within a 15-minute walk or cycle ride</li>
                       <li>find houses that meet your definition of "walkability"</li>
                     </ul>
+                  <p> Learn more <a href="https://a-b-street.github.io/docs/software/fifteen_min.html">here</a>.</p>
                 </div>
               )}
 
               { this.state.carousel == 3 && (
                 <div className="carouselItem">
-                  <p> 15-min Santa </p>
+                  <h3> 15-min Santa </h3>
                     <ul>
                       <li>a game teaching the importance of letting people live close to where they work and shop</li>
                       <li>deliver presents around Seattle as efficiently as possible</li>
                       <li>create new shops near residential areas to improve your score</li>
                     </ul>
+                  <p> Learn more <a href="https://a-b-street.github.io/docs/software/santa.html">here</a>.</p>
                 </div>
               )}
 
               { this.state.carousel == 4 && (
                 <div className="carouselItem">
-                  <p> Ungap the Map </p>
+                  <h3> Ungap the Map </h3>
                     <ul>
                       <li>view existing cycling infrastructure & fill in missing links in the cycle network</li>
                       <li>explore routing tradeoffs between speed, safety, and avoiding hills</li>
                       <li>predict how many people will decide to cycle</li>
                     </ul>
+                  <p> Learn more <a href="https://a-b-street.github.io/docs/software/ungap_the_map/index.html">here</a>.</p>
                 </div>
               )}
 
