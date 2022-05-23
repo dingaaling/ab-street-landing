@@ -11,7 +11,7 @@ import traffic_sim from '../images/traffic_sim.png'
 import ungap_map from '../images/ungap_map.png'
 import fifteen_min from '../images/fifteen_min.png'
 import santa from '../images/santa.png'
-import ltn from '../images/ltn.gif'
+import ltn from '../images/ltn.png'
 
 class Home extends React.Component {
 

@@ -17,7 +17,7 @@ import {Link} from "react-router-dom"
 import logo from '../images/logo_white.png';
 import github from '../images/github.png';
 
-const pages = ['About', 'Contact'];
+const pages = ['Home','About', 'Contact'];
 
 const theme = createTheme({
   palette: {
@@ -30,7 +30,7 @@ const theme = createTheme({
   },
   typography:{
     fontFamily: ["Overpass", "sans-serif"].join(",")
-  }
+  },
 });
 
 
@@ -89,7 +89,7 @@ const ResponsiveAppBar = () => {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem key={page} onClick={handleCloseNavMenu} style={{backgroundColor: '#4E5BCC'}}>
                     <Typography textAlign="center">
                       <Link to ={`/${page}`}>{page}</Link>
                     </Typography>
