@@ -21,7 +21,6 @@ class Home extends React.Component {
     this.onChange = this.onChange.bind(this)
   }
 
-
   onChange (index, item){
     this.setState({ carousel: this.state.carousel = index})
   }
@@ -55,23 +54,18 @@ class Home extends React.Component {
           <Carousel onChange={this.onChange} infiniteLoop>
               <div>
                   <img src={traffic_sim} />
-                  <p className="legend">Traffic Simulator</p>
               </div>
               <div>
                   <img src={ltn} />
-                  <p className="legend">Low-traffic neighbourhoods</p>
               </div>
               <div>
                   <img src={fifteen_min} />
-                  <p className="legend">15-min neighbourhoods</p>
               </div>
               <div>
                   <img src={santa} />
-                  <p className="legend">15-min Santa</p>
               </div>
               <div>
                   <img src={ungap_map} />
-                  <p className="legend">Ungap the Map</p>
               </div>
             </Carousel>
         </Grid>
