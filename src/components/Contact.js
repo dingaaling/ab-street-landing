@@ -25,7 +25,7 @@ function Contact(){
           <ul>
             <li>Add an issue on <a href="https://github.com/a-b-street/abstreet/issues"><u>Github</u></a></li>
             <li>Send us <a href="mailto:dabreegster@gmail.com"><u>an email</u></a></li>
-            <li>Submit a request for a workshop <a href="https://github.com/a-b-street/abstreet"><u>here</u></a></li>
+            <li>Submit a request for a workshop <a href="https://forms.gle/YTqavYupYUFC1MdR9"><u>here</u></a></li>
           </ul>
           </Grid>
 
